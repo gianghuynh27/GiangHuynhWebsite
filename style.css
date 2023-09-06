@@ -1,0 +1,104 @@
+#page-title {
+  background-color: #f8f0e5;
+  position: relative;
+}
+.title-container {
+  height: 500px;
+}
+.div-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 120vh;
+}
+.myName {
+  font-family: "Pacifico", cursive;
+  font-size: 5em;
+  color: #102c57;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.myTitle {
+  font-size: 2em;
+  color: #102c57;
+  text-align: center;
+}
+.cloud-img {
+  position: absolute;
+  top: 20px;
+  height: 300px;
+  left: 200px;
+}
+.coding-guy {
+  position: absolute;
+  right: 30px;
+  height: 200px;
+}
+@media screen and (max-width: 992px) {
+  img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: static !important;
+  }
+  .div-title {
+    height: 100vh;
+  }
+  .cloud-img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+  }
+  .coding-guy {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+  }
+  .main-img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+  .myName {
+    font-size: 10vw;
+  }
+  .myTitle {
+    font-size: 5vw;
+  }
+}
+#about-me {
+  background-color: #eadbc8;
+}
+.about-me-paragraph {
+  color: #102c57;
+  text-align: center;
+}
+.about-me-title {
+  color: #102c57;
+  text-align: center;
+}
+.about-me-div {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+#projects {
+  background-color: #dac0a3;
+}
+.project-btn {
+  background-color: #102c57;
+}
+#footer {
+  background-color: #212529;
+}
+.footer-btn {
+  text-decoration: none;
+}
+.contact-me {
+  color: #102c57;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+.footer-logo {
+  color: white;
+}
